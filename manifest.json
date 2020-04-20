@@ -1,0 +1,26 @@
+{
+    "name": "Coursera Print DOM",
+    "version": "1.0",
+    "description": "Coursera Print DOM",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "declarativeContent",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_title": "Print Coursera DOM",
+        "default_icon": "images/print_16x16.png"
+    },
+    "icons": {
+        "16": "images/print_16x16.png"
+    },
+    "manifest_version": 2
+}
